@@ -12,8 +12,11 @@
     "action":{
         "default_popup" : "main.html"
     },
+    "web_accessible_resources": [
+        "main.css"
+    ], 
     "content_scripts": [{
         "matches" : ["https://www.google.com/*"],
-        "css" : ["main.css"]
+        "js" : ["main.js"]
     }]
 }
