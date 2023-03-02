@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Affirmations Pet!",
-    "description": "a google chrome extension that contains a pet that gives you random affirmations from time to time",
+    "description": "a google chrome extension that contains a pet that gives you random affirmations when you click on it",
     "version": "1.0",
     "icons": {
         "16": "/images/icon16.png",
