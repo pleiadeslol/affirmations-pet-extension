@@ -94,3 +94,36 @@ body{
     top: 3px;
     left: 3px;
 }
+
+.nose{
+    width: 0;
+    height: 0;
+    border-top: 8px solid #d36149;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: relative;
+    bottom: 110px;
+    left: 68px;
+}
+
+.mouth{
+    width: 15px;
+    height: 5.5px;
+    background-color: transparent;
+    border: 1px solid rgb(138, 108, 108);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: none;
+    position: absolute;
+    left: 65px;
+    top: 65px;
+}
+
+.body{
+    background-color: #33292b;
+    height: 120px;
+    width: 130px;
+    position: relative;
+    left: 30px;
+    border-radius: 0 65px 0 0; 
+}
