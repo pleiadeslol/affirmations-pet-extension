@@ -12,8 +12,8 @@
  
     "content_scripts": [{
         "matches" : ["https://www.google.com/*"],
-        "html" : ["main.html"],
-        "css" : ["main.html"],
-        "js" : ["main.js"]
+        "html" : ["/code/main.html"],
+        "css" : ["/code/main.html"],
+        "js" : ["/code/main.js"]
     }]
 }
