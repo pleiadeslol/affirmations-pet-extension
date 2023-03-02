@@ -4,16 +4,15 @@
     "description": "a google chrome extension that contains a pet that gives you random affirmations from time to time",
     "version": "1.0",
     "icons": {
-        "16": "",
-        "48": " ",
-        "128": ""
+        "16": "/images/icon16.jpg",
+        "48": "/images/icon48.jpg",
+        "128": "/images/icon128.jpg"
     },
     "page_action": {
         "default_icon": {
-            "16": "",
-            "48": "",
-            "128": ""
+            "16": "/images/icon16-2.jpg",
+            "48": "/images/icon48-2.jpg",
+            "128": "/images/icon128-2.jpg"
         }
-    },
-    "content_scripts": [{}]
+    }
     }
