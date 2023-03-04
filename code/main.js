@@ -8,7 +8,7 @@ const aff = ["I am successful", "I am confident", "I am powerful", "I am strong"
   "I use obstacles to motivate me to learn and grow", "Today will be a productive day", "I am intelligent and focused",
   "I feel more grateful each day", "I am getting healthier every day",]
 
-const random = Math.floor(Math.random() * aff.length);
+var random = Math.floor(Math.random() * aff.length);
 let random_aff = aff[random];
 
 function clickme(){
@@ -19,4 +19,14 @@ function clickme(){
       x.style.display = "none";
     }
     x.innerHTML = random_aff;
+}
+
+
+function changeaff(){
+    x.innerHTML = random_aff;
+}
+
+function change(){
+  clickme();
+  changeaff();
 }
